@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bongani Xolani Macu - Data Analyst, RPA Developer, BI Specialist Portfolio">
+    <meta name="keywords" content="Data Analyst, RPA Developer, Power BI, Python, SQL, Business Intelligence, South Africa">
+    <meta name="author" content="Bongani Xolani Macu">
+    <title>Bongani Xolani Macu | Data Analyst & RPA Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon">BX</span>
+                <span class="logo-text">Bongani Macu</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="weather-widget" id="weatherWidget">
+                    <i class="fas fa-spinner fa-spin" id="weatherIcon"></i>
+                    <span id="weatherText">Loading...</span>
+                </div>
+                <div class="time-widget" id="timeWidget">
+                    <i class="far fa-clock"></i>
+                    <span id="timeText">--:--</span>
+                </div>
+                <a href="assets/Bongani_Macu_CV.pdf" download class="btn btn-download">
+                    <i class="fas fa-download"></i> CV
+                </a>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>Available for Opportunities</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="greeting">Hello, I'm</span>
+                <span class="name">Bongani Xolani Macu</span>
+            </h1>
+            <div class="typing-container">
+                <span class="typing-prefix">I am a </span>
+                <span class="typing-text" id="typingText"></span>
+                <span class="typing-cursor">|</span>
+            </div>
+            <p class="hero-description">
+                Technology professional specialising in <strong>Data Analytics</strong>, <strong>Robotic Process Automation</strong>, 
+                and <strong>Business Intelligence</strong>. I transform complex data into actionable insights and automate 
+                repetitive workflows to drive operational excellence.
+            </p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i> View My Work
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <i class="fas fa-paper-plane"></i> Get In Touch
+                </a>
+                <a href="assets/Bongani_Macu_CV.pdf" download class="btn btn-secondary">
+                    <i class="fas fa-file-download"></i> Download CV
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-count="14">0</span>
+                    <span class="stat-label">Months Experience</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-count="5">0</span>
+                    <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-count="8">0</span>
+                    <span class="stat-label">Bots Deployed</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-count="5">0</span>
+                    <span class="stat-label">Dashboards Built</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Professional Profile</h2>
+                <p class="section-subtitle">Technology professional with a passion for data-driven solutions</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user"></i>
+                            <span>Add Your Photo</span>
+                        </div>
+                        <div class="image-decoration"></div>
+                    </div>
+                    <div class="location-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <span class="location-label">Based in</span>
+                            <span class="location-value">Midrand, Gauteng, South Africa</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I am a <strong>Data Analyst, RPA Developer, and Business Intelligence Specialist</strong> with a 
+                            Diploma in Multimedia Computing from Tshwane University of Technology and 14 months of intensive 
+                            hands-on experience at Tech Mahindra.
+                        </p>
+                        <p>
+                            My expertise spans the full data lifecycle — from extraction and transformation to visualisation 
+                            and automation. I have successfully designed and deployed <strong>8+ automation bots</strong> using 
+                            UiPath and Automation Anywhere, built <strong>interactive Power BI dashboards</strong> with complex 
+                            DAX calculations, and developed <strong>Python-based analytics solutions</strong> that turn raw data 
+                            into strategic business insights.
+                        </p>
+                        <p>
+                            I hold the <strong>Microsoft Certified: Azure AI Fundamentals</strong> credential and have practical 
+                            exposure to AWS and Azure cloud ecosystems. I thrive in Agile environments and am committed to 
+                            continuous learning and delivering measurable value.
+                        </p>
+                    </div>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <span class="highlight-title">Diploma in Multimedia Computing</span>
+                                <span class="highlight-desc">Tshwane University of Technology | NQF Level 6</span>
+                            </div>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <span class="highlight-title">Azure AI Fundamentals Certified</span>
+                                <span class="highlight-desc">Microsoft AI-900 | July 2025</span>
+                            </div>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <span class="highlight-title">Enterprise Internship</span>
+                                <span class="highlight-desc">Tech Mahindra | 14 Months</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Technical Arsenal</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Tools and technologies I use to deliver results</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Data Analytics & BI</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Python (Pandas, NumPy, scikit-learn)</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>SQL (MySQL, PostgreSQL, T-SQL)</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Power BI (DAX, Power Query)</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="88"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Microsoft Excel (Advanced)</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="92"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>R (Statistical Analysis)</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="75"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <i class="fas fa-robot"></i>
+                        <h3>RPA & Automation</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>UiPath (Studio, Orchestrator)</span>
+                                <span>87%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="87"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Automation Anywhere 360</span>
+                                <span>82%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="82"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Bot Development Lifecycle</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Exception Handling & Debugging</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="88"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>UI/PDF/Email Automation</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <i class="fas fa-cloud"></i>
+                        <h3>Cloud & Infrastructure</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Microsoft Azure</span>
+                                <span>78%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="78"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Amazon Web Services (AWS)</span>
+                                <span>72%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="72"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Azure AI Services</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="75"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Cloud Resource Management</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="70"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Development & Design</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML, CSS, JavaScript</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Java (OOP)</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Database Design (SQL, Normalisation)</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Adobe Creative Suite</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Git & GitHub</span>
+                                <span>82%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="82"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Career Journey</span>
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-subtitle">Where I've applied my skills in real-world environments</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Data Analyst / RPA Developer</h3>
+                            <span class="timeline-badge">Internship</span>
+                        </div>
+                        <div class="timeline-company">
+                            <i class="fas fa-building"></i>
+                            <span>Tech Mahindra</span>
+                            <span class="timeline-divider">|</span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Midrand, Gauteng, South Africa</span>
+                        </div>
+                        <div class="timeline-date">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>May 2024 – July 2025 (14 months)</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="timeline-summary">
+                                Selected for a competitive 14-month technology internship, gaining comprehensive exposure across data analytics, 
+                                RPA, business intelligence, cloud computing, and Agile project management within an enterprise-grade environment.
+                            </p>
+                            <ul class="timeline-achievements">
+                                <li>
+                                    <strong>Data Analysis & Reporting:</strong> Led end-to-end data projects using Python (Pandas, NumPy) and SQL, 
+                                    developing reproducible pipelines that reduced report generation time by ~35%.
+                                </li>
+                                <li>
+                                    <strong>RPA Development:</strong> Designed and deployed 8+ automation bots using UiPath and Automation Anywhere 360, 
+                                    achieving 99%+ reliability and saving an estimated 60–80 manual hours monthly.
+                                </li>
+                                <li>
+                                    <strong>Business Intelligence:</strong> Built 5+ interactive Power BI dashboards with DAX and time-intelligence measures, 
+                                    reducing ad-hoc reporting requests by ~40% through self-service analytics.
+                                </li>
+                                <li>
+                                    <strong>Cloud & AI:</strong> Gained hands-on experience with AWS and Azure, including Azure AI Vision services, 
+                                    contributing to cloud resource optimisation discussions.
+                                </li>
+                                <li>
+                                    <strong>Agile & Project Management:</strong> Applied Scrum methodologies via Jira, managed sprint tasks, 
+                                    and developed WBS structures using Microsoft Project for on-time milestone delivery.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="timeline-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">Power BI</span>
+                            <span class="tag">UiPath</span>
+                            <span class="tag">Automation Anywhere</span>
+                            <span class="tag">AWS</span>
+                            <span class="tag">Azure</span>
+                            <span class="tag">Jira</span>
+                            <span class="tag">Agile</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Graphic Design & Digital Media Intern</h3>
+                            <span class="timeline-badge">Internship</span>
+                        </div>
+                        <div class="timeline-company">
+                            <i class="fas fa-building"></i>
+                            <span>Netcampus</span>
+                            <span class="timeline-divider">|</span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>South Africa</span>
+                        </div>
+                        <div class="timeline-date">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>2023 – 2024 (12 months)</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="timeline-summary">
+                                Completed an intensive 12-month programme focused on graphic design fundamentals, digital media production, 
+                                web design, and digital marketing strategy.
+                            </p>
+                            <ul class="timeline-achievements">
+                                <li>
+                                    <strong>Design Fundamentals:</strong> Mastered Adobe Photoshop, Illustrator, GIMP, and Canva for professional 
+                                    visual composition, branding, and marketing collateral.
+                                </li>
+                                <li>
+                                    <strong>Web Design:</strong> Acquired foundational skills in wireframing, prototyping, responsive layout design, 
+                                    and HTML/CSS implementation.
+                                </li>
+                                <li>
+                                    <strong>Digital Marketing:</strong> Developed social media campaign strategies, content calendars, and marketing 
+                                    analytics interpretation capabilities.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="timeline-tags">
+                            <span class="tag">Photoshop</span>
+                            <span class="tag">Illustrator</span>
+                            <span class="tag">Canva</span>
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">Digital Marketing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Real-world applications of my technical skills</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/bongani-macu/sales-dashboard-powerbi" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link demo-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Power BI</span>
+                            <span class="project-tag">DAX</span>
+                            <span class="project-tag">Data Modelling</span>
+                        </div>
+                        <h3>Enterprise Sales Dashboard</h3>
+                        <p>
+                            End-to-end Power BI dashboard from raw sales CSV data. Features star-schema data modelling, 
+                            15+ DAX measures (YoY growth, MoM variance, running totals), and interactive visualisations 
+                            with drill-through capabilities. Reduced reporting time from 4 hours to 15 minutes per cycle.
+                        </p>
+                        <div class="project-footer">
+                            <a href="https://github.com/bongani-macu/sales-dashboard-powerbi" target="_blank" class="project-btn">
+                                <i class="fab fa-github"></i> GitHub Repo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/bongani-macu/invoice-rpa-bot" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">UiPath</span>
+                            <span class="project-tag">RPA</span>
+                            <span class="project-tag">Regex</span>
+                        </div>
+                        <h3>Automated Invoice Processing Bot</h3>
+                        <p>
+                            UiPath bot that monitors email inboxes, extracts critical fields from PDF invoices using regex, 
+                            validates against a master Excel database, flags discrepancies, and generates consolidated summary reports. 
+                            Built on REFramework with 99%+ reliability. Reduced processing from 3 hours to 8 minutes per 50-invoice batch.
+                        </p>
+                        <div class="project-footer">
+                            <a href="https://github.com/bongani-macu/invoice-rpa-bot" target="_blank" class="project-btn">
+                                <i class="fab fa-github"></i> GitHub Repo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/bongani-macu/customer-segmentation" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">scikit-learn</span>
+                            <span class="project-tag">Machine Learning</span>
+                        </div>
+                        <h3>Customer Segmentation & Clustering</h3>
+                        <p>
+                            Unsupervised ML project on a 10,000-record retail dataset. Applied K-Means clustering with PCA 
+                            dimensionality reduction, elbow method & silhouette analysis for optimal k. Delivered 4 distinct 
+                            customer segments with actionable marketing recommendations visualised via 3D scatter plots and heatmaps.
+                        </p>
+                        <div class="project-footer">
+                            <a href="https://github.com/bongani-macu/customer-segmentation" target="_blank" class="project-btn">
+                                <i class="fab fa-github"></i> GitHub Repo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/bongani-macu/responsive-landing-page" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="https://bonganimacu.github.io/portfolio" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Site
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                        <h3>Responsive Business Landing Page</h3>
+                        <p>
+                            Fully responsive small-business landing page built from scratch with semantic HTML5, CSS3 Flexbox/Grid, 
+                            and vanilla JavaScript. Features mobile-first design, smooth-scroll navigation, animated hero sections, 
+                            contact form validation, and Google Maps integration. Optimised for Core Web Vitals and cross-browser compatibility.
+                        </p>
+                        <div class="project-footer">
+                            <a href="https://github.com/bongani-macu/responsive-landing-page" target="_blank" class="project-btn">
+                                <i class="fab fa-github"></i> GitHub Repo
+                            </a>
+                            <a href="https://bonganimacu.github.io/portfolio" target="_blank" class="project-btn secondary">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/bongani-macu/azure-vision-classifier" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Flask</span>
+                            <span class="project-tag">Azure AI</span>
+                        </div>
+                        <h3>Azure AI Image Classification Prototype</h3>
+                        <p>
+                            Cloud-native image classification app using Azure AI Vision API. Built with Python Flask, the application 
+                            accepts image uploads, sends them to the Azure Computer Vision endpoint for object detection and tagging, 
+                            and returns JSON responses with confidence scores and bounding boxes. Includes API integration patterns 
+                            and error handling documentation.
+                        </p>
+                        <div class="project-footer">
+                            <a href="https://github.com/bongani-macu/azure-vision-classifier" target="_blank" class="project-btn">
+                                <i class="fab fa-github"></i> GitHub Repo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card coming-soon">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>More Projects Coming Soon</h3>
+                        <p>
+                            Currently working on new projects in data engineering, advanced RPA, and cloud-native analytics. 
+                            Check back soon or follow my GitHub for updates.
+                        </p>
+                        <div class="project-footer">
+                            <a href="https://github.com/bongani-macu" target="_blank" class="project-btn">
+                                <i class="fab fa-github"></i> Follow on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Credentials</span>
+                <h2 class="section-title">Certifications & Training</h2>
+                <p class="section-subtitle">Professional credentials and continuous learning</p>
+            </div>
+            <div class="certs-grid">
+                <div class="cert-card featured">
+                    <div class="cert-badge">
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <div class="cert-content">
+                        <div class="cert-header">
+                            <h3>Microsoft Certified: Azure AI Fundamentals</h3>
+                            <span class="cert-status">Verified</span>
+                        </div>
+                        <div class="cert-meta">
+                            <span><i class="fas fa-building"></i> Microsoft</span>
+                            <span><i class="far fa-calendar-alt"></i> Earned July 2025</span>
+                            <span><i class="fas fa-id-card"></i> ID: CB468F497C8C07FB</span>
+                        </div>
+                        <p>
+                            Validates foundational knowledge of artificial intelligence workloads, machine learning concepts, 
+                            and Azure AI services including computer vision, natural language processing, and conversational AI.
+                        </p>
+                        <div class="cert-actions">
+                            <a href="assets/certificates/Azure_AI_Fundamentals.pdf" download class="cert-btn">
+                                <i class="fas fa-download"></i> Download Certificate
+                            </a>
+                            <a href="https://www.credly.com/badges/azure-ai-fundamentals" target="_blank" class="cert-btn secondary">
+                                <i class="fas fa-external-link-alt"></i> Verify on Credly
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-badge">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="cert-content">
+                        <div class="cert-header">
+                            <h3>UiPath RPA Developer Foundation</h3>
+                        </div>
+                        <div class="cert-meta">
+                            <span><i class="fas fa-laptop-code"></i> Self-Directed Learning</span>
+                            <span><i class="far fa-calendar-alt"></i> Completed 2025</span>
+                        </div>
+                        <p>
+                            Comprehensive training in UiPath Studio covering variables, arguments, control flow, data manipulation, 
+                            selectors, Orchestrator integration, and REFramework best practices.
+                        </p>
+                        <div class="cert-actions">
+                            <a href="assets/certificates/UiPath_Foundation.pdf" download class="cert-btn">
+                                <i class="fas fa-download"></i> Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-badge">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="cert-content">
+                        <div class="cert-header">
+                            <h3>Automation Anywhere Certified Essentials</h3>
+                        </div>
+                        <div class="cert-meta">
+                            <span><i class="fas fa-laptop-code"></i> Self-Directed Learning</span>
+                            <span><i class="far fa-calendar-alt"></i> Completed 2025</span>
+                        </div>
+                        <p>
+                            Proficiency in Automation 360 platform architecture, bot creation, recorder functionality, 
+                            IQ Bot for intelligent document processing, and Control Room management.
+                        </p>
+                        <div class="cert-actions">
+                            <a href="assets/certificates/AA_Essentials.pdf" download class="cert-btn">
+                                <i class="fas fa-download"></i> Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-badge">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <div class="cert-content">
+                        <div class="cert-header">
+                            <h3>Agile & Scrum Fundamentals</h3>
+                        </div>
+                        <div class="cert-meta">
+                            <span><i class="fas fa-building"></i> Tech Mahindra</span>
+                            <span><i class="far fa-calendar-alt"></i> Practical Exposure 2024–2025</span>
+                        </div>
+                        <p>
+                            Applied Agile ceremonies, Jira workflows, sprint management, backlog grooming, and retrospectives 
+                            in a live enterprise project environment with cross-functional teams.
+                        </p>
+                        <div class="cert-actions">
+                            <a href="assets/certificates/Agile_Scrum.pdf" download class="cert-btn">
+                                <i class="fas fa-download"></i> Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Academic Background</span>
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">Formal qualifications and academic achievements</p>
+            </div>
+            <div class="edu-grid">
+                <div class="edu-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="edu-content">
+                        <h3>Diploma in Multimedia Computing</h3>
+                        <div class="edu-institution">Tshwane University of Technology</div>
+                        <div class="edu-meta">
+                            <span><i class="far fa-calendar-alt"></i> Completed 2024</span>
+                            <span><i class="fas fa-award"></i> NQF Level 6 (360 Credits)</span>
+                            <span><i class="fas fa-id-card"></i> Qual ID: 111914</span>
+                        </div>
+                        <p>
+                            Comprehensive three-year programme integrating computer science fundamentals with multimedia design, 
+                            web development, and interactive media production. Emphasis on practical, project-based learning.
+                        </p>
+                        <div class="edu-modules">
+                            <span class="module-tag">Programming</span>
+                            <span class="module-tag">OOP</span>
+                            <span class="module-tag">Web Computing</span>
+                            <span class="module-tag">Database Principles</span>
+                            <span class="module-tag">Mobile Computing</span>
+                            <span class="module-tag">3D Modelling</span>
+                            <span class="module-tag">Game Programming</span>
+                            <span class="module-tag">Motion Graphics</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="edu-content">
+                        <h3>National Senior Certificate (Matric)</h3>
+                        <div class="edu-institution">Bambanani High School</div>
+                        <div class="edu-meta">
+                            <span><i class="far fa-calendar-alt"></i> 2018</span>
+                        </div>
+                        <p>
+                            Major subjects in Mathematics, Physical Science, Life Science, and Geography — providing a strong 
+                            quantitative and analytical foundation for subsequent technical studies.
+                        </p>
+                        <div class="edu-modules">
+                            <span class="module-tag">Mathematics</span>
+                            <span class="module-tag">Physical Science</span>
+                            <span class="module-tag">Life Science</span>
+                            <span class="module-tag">Geography</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Open to data, automation, and BI opportunities across South Africa</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <a href="tel:+27633963117">063 396 3117</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:bonganimacu11@gmail.com">bonganimacu11@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <span>Midrand, Gauteng, South Africa</span>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Availability</h4>
+                            <span>Full-time & Contract Opportunities</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h4>Connect With Me</h4>
+                        <div class="social-grid">
+                            <a href="https://linkedin.com/in/bongani-macu" target="_blank" class="social-link linkedin" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://github.com/bongani-macu" target="_blank" class="social-link github" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://twitter.com/bongani_macu" target="_blank" class="social-link twitter" aria-label="Twitter/X">
+                                <i class="fab fa-x-twitter"></i>
+                                <span>Twitter / X</span>
+                            </a>
+                            <a href="https://instagram.com/bongani.macu" target="_blank" class="social-link instagram" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="https://facebook.com/bongani.macu" target="_blank" class="social-link facebook" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <a href="https://wa.me/27633963117" target="_blank" class="social-link whatsapp" aria-label="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>WhatsApp</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Send Me a Message</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Job Opportunity / Project Collaboration / General Inquiry" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about the opportunity, project, or how I can help..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                        <div class="form-note">
+                            <i class="fas fa-info-circle"></i>
+                            <span>This form sends directly to my email. I typically respond within 24 hours.</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-icon">BX</span>
+                        <span>Bongani Macu</span>
+                    </div>
+                    <p>
+                        Data Analyst | RPA Developer | BI Specialist<br>
+                        Transforming data into decisions, and processes into progress.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://linkedin.com/in/bongani-macu" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/bongani-macu" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/bongani_macu" target="_blank" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://wa.me/27633963117" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#certifications">Certifications</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="assets/Bongani_Macu_CV.pdf" download>Download CV</a></li>
+                        <li><a href="https://github.com/bongani-macu" target="_blank">GitHub Profile</a></li>
+                        <li><a href="https://linkedin.com/in/bongani-macu" target="_blank">LinkedIn Profile</a></li>
+                        <li><a href="#projects">View Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-phone-alt"></i> 063 396 3117</li>
+                        <li><i class="fas fa-envelope"></i> bonganimacu11@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Midrand, Gauteng, SA</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bongani Xolani Macu. All rights reserved.</p>
+                <p>Built with <i class="fas fa-heart"></i> using HTML, CSS & JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toastMessage">Message sent successfully!</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
